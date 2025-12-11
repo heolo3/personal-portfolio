@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
+    "start": "node server.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -10,7 +11,10 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.17",
+    "express": "^5.2.1",
+    "express-favicon": "^2.0.4",
     "lucide-react": "^0.560.0",
+    "path": "^0.12.7",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
